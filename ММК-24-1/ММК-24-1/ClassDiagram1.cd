@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MonteKarlo.Window">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="Cx" Hidden="true" />
+      <Field Name="Cy" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Field Name="DGV_Iterations" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="Dx" Hidden="true" />
+      <Field Name="Hits" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="N" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="Ratio" Hidden="true" />
+      <Field Name="RealSquare" Hidden="true" />
+      <Field Name="Sqr" Hidden="true" />
+      <Field Name="Time" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ICCEAQAAASAAQBAAQACAJAACAAg4ACAAgXABhDBAAQA=</HashCode>
+      <FileName>Window.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonteKarlo.Program">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
