@@ -33,7 +33,7 @@ namespace MonteKarlo
                 b = C.Y - k * C.X;
                 angle = (float)Math.Atan(k);
                 rectSquare = rectangle.Sq;
-                realSquare = (triangle.Sq / 2) + (circle.Sq/ 2);
+                realSquare = triangle.Sq  + (circle.Sq/ 2);
                 RealSquare.Text = realSquare.ToString();
                 StartMonteKarlo();
             }
@@ -113,9 +113,12 @@ namespace MonteKarlo
             r = (float)C.Y / 2;
             k = -C.Y / (D.X - C.X);
             b = C.Y - k * C.X;
+            Rectangle rectangle = new Rectangle(D, C, r);
+            Circle circle = new Circle(r);
+            Triangle triangle = new Triangle(D, C);
             angle = (float)Math.Atan(k);
-            rectSquare = (D.X + r - C.X) * C.Y;
-            realSquare = ((D.X - (float)C.X) * C.Y) / 2 + (float)(Math.PI * r * r / 2);
+            rectSquare = rectangle.Sq;
+            realSquare = triangle.Sq + (circle.Sq / 2);
             RealSquare.Text = realSquare.ToString();
             StartMonteKarlo();
             
@@ -128,7 +131,7 @@ namespace MonteKarlo
         public float Sq;
         public float Square()
         {
-            return this.Sq == null && this.r != null ? (float)(Math.PI * this.r * this.r) : 0;
+            return (float)(Math.PI * this.r * this.r);
         }
         public Circle(float ru)
         {
@@ -172,7 +175,7 @@ namespace MonteKarlo
 
         private float Square()
         {
-            return ((D.X - (float)C.X) * C.Y);
+            return ((D.X - (float)C.X) * C.Y)/2;
         }
     }
 
