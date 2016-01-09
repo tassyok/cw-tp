@@ -7,3 +7,6 @@ C:\Users\Admin\Downloads\ММК-24-1\ММК-24-1\obj\Debug\ММК-24-1.exe
 C:\Users\Admin\Downloads\ММК-24-1\ММК-24-1\obj\Debug\ММК-24-1.pdb
 C:\Users\Admin\Downloads\ММК-24-1\ММК-24-1\obj\Debug\MonteKarlo.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Downloads\ММК-24-1\ММК-24-1\obj\Debug\MonteKarlo.Window.resources
+C:\Users\Admin\Documents\git\cw-tp\ММК-24-1\ММК-24-1\bin\Debug\ММК-24-1.exe.config
+C:\Users\Admin\Documents\git\cw-tp\ММК-24-1\ММК-24-1\obj\Debug\ММК-24-1.exe
+C:\Users\Admin\Documents\git\cw-tp\ММК-24-1\ММК-24-1\obj\Debug\ММК-24-1.pdb

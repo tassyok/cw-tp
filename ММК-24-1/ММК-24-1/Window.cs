@@ -118,4 +118,30 @@ namespace MonteKarlo
             
         }
     }
+
+
+    public static class Circle { 
+        float r;
+        float Sq;
+        public float Square()
+        {
+            return this.Sq == null && this.r != null ? (float)(Math.PI * this.r * this.r) : 0;
+        }
+        public Circle(float ru)
+        {
+            if (ru > 0)
+            {
+                this.r = ru;
+                Square();
+            }
+            else throw new ArgumentException();
+        }
+    }
+
+    public static class Rectangle { }
+
+    public static class Triangle {
+    
+    }
+
 }
