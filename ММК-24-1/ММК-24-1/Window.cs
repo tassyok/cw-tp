@@ -24,13 +24,16 @@ namespace MonteKarlo
             C = new Point((int)Cx.Value, (int)Cy.Value);
             D = new Point((int)Dx.Value, (int)Cy.Value);
             r = (float)C.Y / 2;
+            Rectangle rectangle = new Rectangle(D,C,r);
+            Circle circle = new Circle(r);
+            Triangle triangle = new Triangle(D, C);
             if (C.Y > 0 && C.X >= 0 && C.X < D.X)
             {
                 k = -C.Y / (D.X - C.X);
                 b = C.Y - k * C.X;
                 angle = (float)Math.Atan(k);
-                rectSquare = (D.X + r - C.X) * C.Y;
-                realSquare = ((D.X - (float)C.X) * C.Y) / 2 + (float)(Math.PI * r * r / 2);
+                rectSquare = rectangle.Sq;
+                realSquare = (triangle.Sq / 2) + (circle.Sq/ 2);
                 RealSquare.Text = realSquare.ToString();
                 StartMonteKarlo();
             }
@@ -120,9 +123,9 @@ namespace MonteKarlo
     }
 
 
-    public static class Circle { 
+    public class Circle { 
         float r;
-        float Sq;
+        public float Sq;
         public float Square()
         {
             return this.Sq == null && this.r != null ? (float)(Math.PI * this.r * this.r) : 0;
@@ -138,11 +141,11 @@ namespace MonteKarlo
         }
     }
 
-    public static class Rectangle {
+    public class Rectangle {
         float R;
         Point D;
         Point C;
-        float Sq;
+        public float Sq;
         public Rectangle(Point d, Point c, float r)
         {
             this.C = c;
@@ -156,10 +159,10 @@ namespace MonteKarlo
         }
     }
 
-    public static class Triangle {
+    public class Triangle {
         Point D;
         Point C;
-        float Sq;
+        public float Sq;
         public Triangle(Point d, Point c)
         {
             this.C = c;
