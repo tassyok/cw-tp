@@ -17,3 +17,6 @@ C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client
 C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK_24_3_client.Properties.Resources.resources
 C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.csproj.GenerateResource.Cache
 C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK_24_3_client.Window.resources
+E:\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.exe.config
+E:\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.exe
+E:\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.pdb
