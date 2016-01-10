@@ -1,0 +1,5 @@
+L:\софт\TP\MMK-24-3-server\MMK-24-3-server\bin\MMK-24-3-server.dll.config
+L:\софт\TP\MMK-24-3-server\MMK-24-3-server\bin\MMK-24-3-server.dll
+L:\софт\TP\MMK-24-3-server\MMK-24-3-server\bin\MMK-24-3-server.pdb
+L:\софт\TP\MMK-24-3-server\MMK-24-3-server\obj\Debug\MMK-24-3-server.dll
+L:\софт\TP\MMK-24-3-server\MMK-24-3-server\obj\Debug\MMK-24-3-server.pdb

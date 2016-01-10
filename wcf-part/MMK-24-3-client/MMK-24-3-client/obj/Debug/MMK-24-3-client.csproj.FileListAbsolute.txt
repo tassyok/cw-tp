@@ -1,0 +1,19 @@
+c:\users\kri\documents\visual studio 2013\Projects\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.exe.config
+L:\софт\TP\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.exe.config
+L:\софт\TP\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.exe
+L:\софт\TP\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.pdb
+L:\софт\TP\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.csprojResolveAssemblyReference.cache
+L:\софт\TP\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK_24_3_client.Form1.resources
+L:\софт\TP\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK_24_3_client.Properties.Resources.resources
+L:\софт\TP\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.csproj.GenerateResource.Cache
+L:\софт\TP\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.exe
+L:\софт\TP\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.pdb
+C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.exe.config
+C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.exe
+C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.pdb
+C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.exe
+C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.pdb
+C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK_24_3_client.Properties.Resources.resources
+C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.csproj.GenerateResource.Cache
+C:\Users\Admin\Downloads\курсач копия\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK_24_3_client.Window.resources
