@@ -82,63 +82,6 @@ namespace MMK_24_3_client
                 }
         }
     }
-
-    public class Circle
-    {
-        float r;
-        public float Sq;
-        public float Square()
-        {
-            return (float)(Math.PI * this.r * this.r);
-        }
-        public Circle(float ru)
-        {
-            if (ru > 0)
-            {
-                this.r = ru;
-                this.Sq = Square();
-            }
-            else throw new ArgumentException();
-        }
-    }
-
-    public class Rectangle
-    {
-        float R;
-        Point D;
-        Point C;
-        public float Sq;
-        public Rectangle(Point d, Point c, float r)
-        {
-            this.C = c;
-            this.D = d;
-            this.R = r;
-            this.Sq = Square();
-        }
-        float Square()
-        {
-            return (D.X + R - C.X) * C.Y;
-        }
-    }
-
-    public class Triangle
-    {
-        Point D;
-        Point C;
-        public float Sq;
-        public Triangle(Point d, Point c)
-        {
-            this.C = c;
-            this.D = d;
-            this.Sq = Square();
-        }
-
-        private float Square()
-        {
-            return ((D.X - (float)C.X) * C.Y) / 2;
-        }
-    }
-
 }
 
 
