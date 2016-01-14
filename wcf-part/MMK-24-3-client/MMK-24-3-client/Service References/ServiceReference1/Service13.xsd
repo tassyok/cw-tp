@@ -24,4 +24,34 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="GetRealSquare">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/System.Drawing" minOccurs="0" name="C" type="q4:Point" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/System.Drawing" minOccurs="0" name="D" type="q5:Point" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRealSquareResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetRealSquareResult" type="xs:float" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSomeData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/System.Drawing" minOccurs="0" name="C" type="q6:Point" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/System.Drawing" minOccurs="0" name="D" type="q7:Point" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSomeDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetSomeDataResult" nillable="true" type="q8:ArrayOffloat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

@@ -15,22 +15,18 @@ namespace MMK_24_3_client
         private void button1_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
-
             Service1Client Client = new Service1Client();
             Point C = new Point((int)Cx.Value, (int)Cy.Value);
             Point D = new Point((int)Dx.Value, (int)Cy.Value);
             float r = (float)C.Y / 2;
-            Rectangle rectangle = new Rectangle(D, C, r);
-            Circle circle = new Circle(r);
-            Triangle triangle = new Triangle(D, C);
-
-            if (C.Y > 0 && C.X >= 0 && C.X < D.X)
+            var data = Client.GetSomeData(C, D);
+            if (data != null)
             {
-                float k = -C.Y / (D.X - C.X);
-                float b = C.Y - k * C.X;
-                float delta = (float)Math.Atan(k);
-                float rectSquare = rectangle.Sq;
-                float square = triangle.Sq + (circle.Sq / 2); 
+                float k = data[0];
+                float b = data[1];
+                float delta = data[2];
+                float rectSquare = data[3];
+                float square = data[4]; 
                 RealSquare.Text = square.ToString();
                 for (int i = 0; i < 5; i++)
                 {
@@ -66,15 +62,12 @@ namespace MMK_24_3_client
             Point C = new Point((int)Cx.Value, (int)Cy.Value);
             Point D = new Point((int)Dx.Value, (int)Cy.Value);
             float r = (float)C.Y / 2;
-            Rectangle rectangle = new Rectangle(D, C, r);
-            Circle circle = new Circle(r);
-            Triangle triangle = new Triangle(D, C);
-
-                float k = -C.Y / (D.X - C.X);
-                float b = C.Y - k * C.X;
-                float delta = (float)Math.Atan(k);
-                float rectSquare = rectangle.Sq;
-                float square = triangle.Sq + (circle.Sq / 2);
+            var data = Client.GetSomeData(C, D);
+                float k = data[0];
+                float b = data[1];
+                float delta = data[2];
+                float rectSquare = data[3];
+                float square = data[4];
                 RealSquare.Text = square.ToString();
                 for (int i = 0; i < 5; i++)
                 {

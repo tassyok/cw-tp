@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using MMK_24_3_server.Geom;
 
 namespace MMK_24_3_server
 {
@@ -66,5 +67,33 @@ namespace MMK_24_3_server
             return result.ToArray();
         }
 
+        public float GetRealSquare(Point C,Point D)
+        {
+            var realSquare = 0.0f;
+            float r = (float)C.Y / 2;
+            Geom.Rectangle rectangle = new Geom.Rectangle(D, C, r);
+            Circle circle = new Circle(r);
+            Triangle triangle = new Triangle(D, C);
+            if (C.Y > 0 && C.X >= 0 && C.X < D.X)
+            {
+                float k = -C.Y / (D.X - C.X);
+                float b = C.Y - k * C.X;
+                float delta = (float)Math.Atan(k);
+                float rectSquare = rectangle.Sq;
+                realSquare = triangle.Sq + (circle.Sq / 2);
+            }
+                return realSquare;
+        }
+
+        public float[] GetSomeData(Point C, Point D)
+        {
+            return C.Y > 0 && C.X >= 0 && C.X < D.X ?
+                new float[] { -C.Y / (D.X - C.X),
+                               C.Y - k * C.X,
+                               (float)Math.Atan(k),
+                               (new Geom.Rectangle(D,C, ((float)C.Y/2))).Sq,
+                               (new Triangle(D,C)).Sq + (new Circle((float)C.Y/2)).Sq
+                } :null;
+        }
     }
 }

@@ -3,3 +3,9 @@ L:\софт\TP\MMK-24-3-server\MMK-24-3-server\bin\MMK-24-3-server.dll
 L:\софт\TP\MMK-24-3-server\MMK-24-3-server\bin\MMK-24-3-server.pdb
 L:\софт\TP\MMK-24-3-server\MMK-24-3-server\obj\Debug\MMK-24-3-server.dll
 L:\софт\TP\MMK-24-3-server\MMK-24-3-server\obj\Debug\MMK-24-3-server.pdb
+E:\git\cw-tp\wcf-part\MMK-24-3-server\MMK-24-3-server\bin\MMK-24-3-server.dll.config
+E:\git\cw-tp\wcf-part\MMK-24-3-server\MMK-24-3-server\bin\MMK-24-3-server.dll
+E:\git\cw-tp\wcf-part\MMK-24-3-server\MMK-24-3-server\bin\MMK-24-3-server.pdb
+E:\git\cw-tp\wcf-part\MMK-24-3-server\MMK-24-3-server\obj\Debug\MMK-24-3-server.csprojResolveAssemblyReference.cache
+E:\git\cw-tp\wcf-part\MMK-24-3-server\MMK-24-3-server\obj\Debug\MMK-24-3-server.dll
+E:\git\cw-tp\wcf-part\MMK-24-3-server\MMK-24-3-server\obj\Debug\MMK-24-3-server.pdb
