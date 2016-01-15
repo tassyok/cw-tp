@@ -92,7 +92,7 @@ namespace MMK_24_3_server
                                C.Y - k * C.X,
                                (float)Math.Atan(k),
                                (new Geom.Rectangle(D,C, ((float)C.Y/2))).Sq,
-                               (new Triangle(D,C)).Sq + (new Circle((float)C.Y/2)).Sq
+                               GetRealSquare(C,D)
                 } :null;
         }
     }

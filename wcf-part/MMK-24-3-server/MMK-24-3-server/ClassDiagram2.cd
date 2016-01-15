@@ -3,15 +3,36 @@
   <Class Name="MMK_24_3_server.Service1">
     <Position X="3" Y="0.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>ACAEAAAAEQAAAAAgBAAAAAAAAAAgAAAAgQABhEAAIAA=</HashCode>
+      <HashCode>ACAEAAAAEQAAAAAgBgAAAAAAAAAgAAAAgUABhEAAIAA=</HashCode>
       <FileName>Service1.svc.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="MMK_24_3_server.Geom.Circle">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAhAAAAAAA=</HashCode>
+      <FileName>Geom\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMK_24_3_server.Geom.Rectangle">
+    <Position X="12.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAghAAAAQA=</HashCode>
+      <FileName>Geom\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMK_24_3_server.Geom.Triangle">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAghAAAAAA=</HashCode>
+      <FileName>Geom\Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="MMK_24_3_server.IService1">
     <Position X="0.5" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
       <FileName>IService1.cs</FileName>
     </TypeIdentifier>
   </Interface>
