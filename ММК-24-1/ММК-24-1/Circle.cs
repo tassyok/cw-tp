@@ -20,7 +20,7 @@ namespace MonteKarlo
         {
 
         }
-        public Circle(Point a, Point b)
+        public Circle(PointF a, PointF b)
         {
             r = (b.Y - a.Y) / 2;
             centr = new PointF(a.X, a.Y + r);

@@ -9,13 +9,15 @@ namespace MonteKarlo
 {
     public class Triangle
     {
-        Point D;
-        Point C;
+        PointF D;
+        PointF C;
+       
         public float Sq;
-        public Triangle(Point d, Point c)
+        public Triangle(PointF d, PointF c)
         {
             this.C = c;
             this.D = d;
+            
             this.Sq = Square();
         }
 
@@ -23,5 +25,29 @@ namespace MonteKarlo
         {
             return ((D.X - (float)C.X) * C.Y) / 2;
         }
+        public float maxX
+        {
+            get
+            {
+                return D.X;
+            }
+        }
+        public float minX
+        {
+            get
+            {
+                return C.X;
+            }
+        }
+
+        public float maxY
+        {
+            get
+            {
+                return D.Y;
+            }
+        }
+
+
     }
 }

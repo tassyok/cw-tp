@@ -16,7 +16,7 @@ namespace MMK_24_3_server.Geom
         {
             return (float)(Math.PI * this.r * this.r);
         }
-        public Circle(Point a,Point b)
+        public Circle(PointF a,PointF b)
         {
             r = (b.Y - a.Y) / 2;
             centr = new PointF(a.X, a.Y + r);
@@ -56,5 +56,4 @@ namespace MMK_24_3_server.Geom
 
 
 
-}
 }

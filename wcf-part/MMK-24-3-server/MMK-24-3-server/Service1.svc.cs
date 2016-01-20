@@ -8,11 +8,11 @@ namespace MMK_24_3_server
     public class Service1 : IService1
     {
         float r, k, b, delta, square, rectSquare;
-        Point C, D;
+        PointF C, D;
         Random rnd = new Random();
         private List<double> result;
         private DateTime start, stop;
-        public double[] GetData(float r, float k, float b, float delta, float rectSquare, float square, Point C, Point D, int iterations)
+        public double[] GetData(float r, float k, float b, float delta, float rectSquare, float square, PointF C, PointF D, int iterations)
         {
             this.r = r;
             this.k = k;
@@ -39,10 +39,10 @@ namespace MMK_24_3_server
                 if (x <= D.X)
                 {
                     //если точка попала слева от центра окружности
-                    //if (Math.Atan((y - C.Y) / (x - C.X)) >= delta) //строка 1
+                    if (Math.Atan((y - C.Y) / (x - C.X)) >= delta) //строка 1
                     //проверку можно проводить и по коэффициенту, но если нужна проверка строго по углу, то необходимо раскомментировать строку 1 и закомментировать строку 2 (скорость упадёт примерно в 5 раз)
                     {
-                        if ((y - C.Y)/(x - C.X) >= k) //строка 2
+                       // if ((y - C.Y)/(x - C.X) >= k) //строка 2
                         {
                             c++;
                         }
@@ -67,7 +67,7 @@ namespace MMK_24_3_server
             return result.ToArray();
         }
 
-        public float GetRealSquare(Point C,Point D)
+        public float GetRealSquare(PointF C,PointF D)
         {
             var realSquare = 0.0f;
             float r = (float)C.Y / 2;
@@ -85,7 +85,7 @@ namespace MMK_24_3_server
                 return realSquare;
         }
 
-        public float[] GetSomeData(Point C, Point D)
+        public float[] GetSomeData(PointF C, PointF D)
         {
             return C.Y > 0 && C.X >= 0 && C.X < D.X ?
                 new float[] { -C.Y / (D.X - C.X),

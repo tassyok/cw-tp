@@ -10,10 +10,10 @@ namespace MonteKarlo
     public class Rectangle
     {
         float R;
-        Point D;
-        Point C;
+        PointF D;
+        PointF C;
         public float Sq;
-        public Rectangle(Point d, Point c, float r)
+        public Rectangle(PointF d, PointF c, float r)
         {
             this.C = c;
             this.D = d;

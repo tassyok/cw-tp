@@ -26,3 +26,12 @@ E:\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.
 E:\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.exe
 E:\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.pdb
 E:\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.exe.config
+C:\Users\Admin\Documents\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.exe
+C:\Users\Admin\Documents\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.pdb
+C:\Users\Admin\Documents\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.exe
+C:\Users\Admin\Documents\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\bin\Debug\MMK-24-3-client.pdb
+C:\Users\Admin\Documents\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK_24_3_client.Window.resources
+C:\Users\Admin\Documents\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK_24_3_client.Properties.Resources.resources
+C:\Users\Admin\Documents\git\cw-tp\wcf-part\MMK-24-3-client\MMK-24-3-client\obj\Debug\MMK-24-3-client.csproj.GenerateResource.Cache

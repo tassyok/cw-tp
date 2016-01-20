@@ -8,10 +8,10 @@ namespace MMK_24_3_server
     {
 
         [OperationContract]
-        double[] GetData(float r, float k, float b, float delta, float rectSquare, float square, Point C, Point D, int iterations);
+        double[] GetData(float r, float k, float b, float delta, float rectSquare, float square, PointF C, PointF D, int iterations);
         [OperationContract]
-        float GetRealSquare(Point C, Point D);
+        float GetRealSquare(PointF C, PointF D);
         [OperationContract]
-        float[] GetSomeData(Point C, Point D);
+        float[] GetSomeData(PointF C, PointF D);
     }
 }

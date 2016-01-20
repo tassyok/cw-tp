@@ -13,7 +13,7 @@ namespace MonteKarlo
     public partial class Window : Form
     {
         float r, k, b, angle, realSquare, rectSquare;
-        Point C, D;
+        PointF C, D;
         public Window()
         {
             InitializeComponent();
@@ -21,8 +21,8 @@ namespace MonteKarlo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            C = new Point((int)Cx.Value, (int)Cy.Value);
-            D = new Point((int)Dx.Value, (int)Cy.Value);
+            C = new PointF((int)Cx.Value, (int)Cy.Value);
+            D = new PointF((int)Dx.Value, (int)Cy.Value);
             r = (float)C.Y / 2;
             Rectangle rectangle = new Rectangle(D,C,r);
             Circle circle = new Circle(r);
@@ -108,8 +108,8 @@ namespace MonteKarlo
             this.Dx.Value = 4;
             this.Cx.Value = 3;
             this.Cy.Value = 7; 
-            C = new Point((int)Cx.Value, (int)Cy.Value);
-            D = new Point((int)Dx.Value, (int)Cy.Value);
+            C = new PointF((int)Cx.Value, (int)Cy.Value);
+            D = new PointF((int)Dx.Value, (int)Cy.Value);
             r = (float)C.Y / 2;
             k = -C.Y / (D.X - C.X);
             b = C.Y - k * C.X;
