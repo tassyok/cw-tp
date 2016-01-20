@@ -19,6 +19,10 @@ namespace MMK_24_3_server.Geom
             this.R = r;
             this.Sq = Square();
         }
+        public Rectangle()
+        {
+
+        }
         float Square()
         {
             return (D.X + R - C.X) * C.Y;

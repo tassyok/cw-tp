@@ -17,10 +17,15 @@ namespace MMK_24_3_server.Geom
             this.D = d;
             this.Sq = Square();
         }
+        public Triangle()
+        {
+
+        }
 
         private float Square()
         {
             return ((D.X - (float)C.X) * C.Y) / 2;
         }
+
     }
 }
